@@ -1,1 +1,0 @@
-# surviavlist.github.io
