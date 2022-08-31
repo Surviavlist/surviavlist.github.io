@@ -47,6 +47,13 @@ body {
 .container .links a img {
   display: inline-block;
   height: 50px;
+  border-width: 5px;
+  border-radius: 5px;
+  background-color: #000;
+}
+
+.container .links a img:hover {
+  filter: invert(100%);
 }
 
 .container hr {
