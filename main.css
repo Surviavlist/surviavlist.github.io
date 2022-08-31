@@ -2,3 +2,15 @@ body {
   background-color: #000000;
   text: #ffffff;
 }
+
+.mainContent .avatar {
+  clip-path: circle();
+}
+
+.mainContent .nickname {
+  font-size: 20px;
+}
+
+.mainContent .description {
+  font-size: 10px;
+}
