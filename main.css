@@ -1,16 +1,68 @@
 body {
   background-color: #000000;
-  text: #ffffff;
+  padding: 10%;
 }
 
-.mainContent .avatar {
+.container {
+  text-align: center;
+  color: #ffffff;
+  margin: 20px;
+  font-family: Monospace;
+}
+
+.container * {
+  display: block;
+  margin: 5%;
+}
+
+.container .avatar {
+  align: center;
   clip-path: circle();
+  width: 20%;
+  margin: auto;
 }
 
-.mainContent .nickname {
-  font-size: 20px;
+.container .nickname {
+  font-size: 50px;
+  letter-spacing: 10px;
+  font-weight: 100;
 }
 
-.mainContent .description {
-  font-size: 10px;
+.container .title {
+  font-size: 35px;
+  letter-spacing: 10px;
+  font-weight: 100;
+}
+
+.container .description {
+  font-size: 35px;
+  font-weight: 100;
+}
+
+.container .links a {
+  display: inline-block;
+  margin: 10px;
+}
+
+.container .links a img {
+  display: inline-block;
+  height: 50px;
+}
+
+.container hr {
+  width: 60%;
+  display: inline-block;
+  margin: 0;
+}
+
+.container .skills span {
+  font-size: 30px;
+  display: inline;
+  padding: 2px;
+  margin: auto;
+}
+
+.container .void {
+  margin: 10%;
+  border-width: 0;
 }
