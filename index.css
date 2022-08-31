@@ -22,6 +22,10 @@ body {
   margin: auto;
 }
 
+.container .avatar:hover {
+  filter: invert(100%);
+}
+
 .container .nickname {
   font-size: 50px;
   letter-spacing: 10px;
@@ -68,6 +72,11 @@ body {
   display: inline;
   padding: 2px;
   margin: auto;
+}
+
+.container .skills {
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
 
 .container .void {
