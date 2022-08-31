@@ -4,6 +4,7 @@ body {
 }
 
 .container {
+  width: auto;
   text-align: center;
   color: #ffffff;
   margin: 20px;
@@ -16,7 +17,6 @@ body {
 }
 
 .container .avatar {
-  align: center;
   clip-path: circle();
   width: 20%;
   margin: auto;
