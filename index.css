@@ -53,7 +53,7 @@ body {
   padding: 5px;
 }
 
-.container .links a img:hover {
+.container .links a:hover {
   filter: invert(100%);
 }
 
