@@ -83,3 +83,8 @@ body {
   margin: 10%;
   border-width: 0;
 }
+
+.withShadow:hover {
+  text-shadow: 1px 1px 3px #ff00ff;
+  transition-duration: 0.2s;
+}
