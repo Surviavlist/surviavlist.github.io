@@ -28,10 +28,8 @@ body {
 
 .container .nickname {
   font-size: 50px;
-  letter-spacing: 30px;
+  letter-spacing: 15px;
   font-weight: 100;
-  margin-left: auto;
-  margin-right: auto
 }
 
 .container .title {
