@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
+  <title>html</title>
+</head>
+<body>
+  
+	<div class="title"> Converter </div>
+	<textarea class="input" id="in"></textarea>
+	
+	<hr class="void">
+	
+  <h2>Convert to</h2>
+	<select class="select" id="to">
+	  <option value="binary">Binary</option>
+	  <option value="hex">Hex</option>
+	</select>
+	
+	<hr class="void">
+	<h2>Output delimiter string</h2>
+  <select class="select" id="delimiter">
+	  <option value=" ">Space</option>
+	  <option value=",">Comma</option>
+	  <option value="">None</option>
+	</select>
+	
+	<button class="button" onclick="convert()">Convert</button>
+	
+	<textarea class="input" id="out" readonly="true"></textarea>
+	
+</body>
+</html>
