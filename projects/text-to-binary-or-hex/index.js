@@ -29,3 +29,8 @@ function convert() {
   }
   output.value = out
 }
+
+function select() {
+  output.select()
+  output.setSelectionRange(0, 99999)
+}
