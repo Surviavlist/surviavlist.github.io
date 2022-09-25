@@ -1,0 +1,83 @@
+body {
+  background: black;
+
+}
+
+body * {
+  display: block;
+  margin: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  text-align: center;
+  font-family: "Comic Sans MS", Monospace;
+  overflow: scroll;
+  color: #fff;
+  font-size: 150%;
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+  font-size: 300%;
+  text-shadow: 0 0 2px #000;
+}
+
+.select {
+  width: 90%;
+  height: auto;
+  background-color: #fff;
+  color: #555;
+  border: 3px solid #eee;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #555;
+  padding: 10px;
+  font-size: 150%;
+}
+
+.button {
+  width: 90%;
+  height: auto;
+  background-color: #0b0;
+  color: #fff;
+  border: 3px solid #0a0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #555;
+  padding: 10px;
+}
+
+.input {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #555;
+  width: 90%;
+  height: 500px;
+  text-align: top left;
+  background-color: #fff;
+  padding: 10px;
+  font-size: 200%;
+  color: #000;
+}
+
+.select:active {
+  background-color: #eee;
+  border-color: #fff;
+}
+
+.button:active {
+  background-color: #0a0;
+  border-color: #0b0;
+}
+
+.void {
+  border: none;
+  margin: auto;
+}
+
+h2 {
+  color: #fff
+}
+
+.inline *  {
+  display: inline-block;
+  width: 20%
+}
