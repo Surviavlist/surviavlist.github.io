@@ -1,6 +1,5 @@
 body {
   background: black;
-
 }
 
 body * {
@@ -27,7 +26,7 @@ body * {
   height: auto;
   background-color: #fff;
   color: #555;
-  border: 3px solid #eee;
+  border: 3px solid #ddd;
   border-radius: 10px;
   box-shadow: 2px 2px 2px #555;
   padding: 10px;
@@ -39,23 +38,24 @@ body * {
   height: auto;
   background-color: #0b0;
   color: #fff;
-  border: 3px solid #0a0;
+  border: 3px solid #090;
   border-radius: 10px;
   box-shadow: 2px 2px 2px #555;
   padding: 10px;
 }
 
 .input {
-  border: 1px solid #eee;
+  border: 3px solid #aaa;
   border-radius: 10px;
   box-shadow: 2px 2px 2px #555;
   width: 90%;
-  height: 200px;
+  height: 125px;
   text-align: top left;
   background-color: #fff;
   padding: 10px;
-  font-size: 150%;
+  font-size: 100%;
   color: #000;
+  font-family: Monospace;
 }
 
 .select:active {
